@@ -1,3 +1,4 @@
-output "sample"{
+
+output "url" {
     value = "google.com"
 }
