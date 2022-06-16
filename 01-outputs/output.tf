@@ -1,3 +1,3 @@
 output "sample"{
-    URL = "google.com"
+    value = "google.com"
 }
