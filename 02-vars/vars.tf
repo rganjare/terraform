@@ -64,5 +64,5 @@ variable "test_map" {
 }
 
 output "test_map" {
-    value = var.test_map[key2]
+    value = var.test_map["key2"]
 }
