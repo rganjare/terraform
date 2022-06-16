@@ -54,7 +54,7 @@ output "test_list" {
     value = var.test_list[0]
 }
 variable "test_map" {
-    # type = "map()"
+    type = map(string)
     description = "(optional) describe your variable"
     default = {
         key1 = "String"
