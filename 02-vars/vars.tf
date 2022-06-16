@@ -54,15 +54,15 @@ output "test_list" {
     value = var.test_list[0]
 }
 variable "test_map" {
-    type = map(string)
+    # type = map(string)
     description = "(optional) describe your variable"
     default = {
-        key1 = "String"
-        key2 = 100
+        key1 = "String",
+        key2 = 100,
         key3 = true
     }
 }
 
 output "test_map" {
-    value = var.test_map[key1]
+    value = var.test_map[key2]
 }
