@@ -29,18 +29,18 @@ output "number" {
     value = var.number
 }
 ## Boolean Data Type -- list & Map
-variable "boolean" {
+variable "test_boolean" {
     type = boolean
     description = "(optional) describe your variable"
     default = true
 }
 
-output "boolean" {
-    value = var.boolean
+output "bootest_booleanlean1" {
+    value = var.test_boolean
 }
 
 ## Variable types
-variable "list" {
+variable "test_list" {
     type = list()
     description = "(optional) describe your variable"
     default = [
@@ -50,10 +50,10 @@ variable "list" {
     ]
     }
 
-output "list" {
-    value = var.list[0]
+output "test_list" {
+    value = var.test_list[0]
 }
-variable "map" {
+variable "test_map" {
     type = map()
     description = "(optional) describe your variable"
     default = {
@@ -63,6 +63,6 @@ variable "map" {
     }
 }
 
-output "map" {
-    value = var.map[key3]
+output "test_map" {
+    value = var.test_map[key2]
 }
