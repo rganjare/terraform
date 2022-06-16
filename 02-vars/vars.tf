@@ -35,7 +35,7 @@ variable "test_boolean" {
     default = true
 }
 
-output "bootest_booleanlean1" {
+output "test_boolean" {
     value = var.test_boolean
 }
 
@@ -65,4 +65,10 @@ variable "test_map" {
 
 output "test_map" {
     value = var.test_map["key2"]
+}
+
+variable "URL" { }
+
+output "URL" {
+    value = var.URL
 }
