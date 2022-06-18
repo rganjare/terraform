@@ -1,10 +1,10 @@
 module "ec2" {
-    source = "/.ec2"
+    source = "./ec2"
     secgrp = module.sg.sg_id  
 }
 
 module "sg" {
-    source = "/.sg"
+    source = "./sg"
 }
 
 
